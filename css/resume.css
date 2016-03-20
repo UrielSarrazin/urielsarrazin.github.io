@@ -1,0 +1,127 @@
+/*!
+ **********************************************************
+ *
+ *	1.	GLOBAL STYLES
+ *
+ **********************************************************
+ */
+body {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+a:hover,
+a:focus {
+  color: #262b37;
+}
+/*!
+ **********************************************************
+ *
+ *	2.	LAYOUT DESIGN
+ *
+ **********************************************************
+ */
+.wrapper-aside {
+  background-color: #eeeeee;
+  color: #333333;
+}
+.wrapper-aside header {
+  margin: 35px 0;
+  text-align: center;
+}
+.wrapper-aside header > article {
+  margin: auto;
+  max-width: 180px;
+}
+.wrapper-aside header > article > img {
+  border: 3px solid rgba(255, 255, 255, 0.4);
+}
+.wrapper-aside header h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-shadow: 0 2px rgba(255, 255, 255, 0.8);
+}
+.wrapper-aside header h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 7px;
+  text-shadow: 0 2px rgba(255, 255, 255, 0.8);
+}
+.wrapper-aside nav {
+  padding-bottom: 30px;
+}
+.wrapper-aside nav .pager {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 6px;
+}
+.wrapper-aside nav .pager a,
+.wrapper-aside nav .pager a:focus {
+  background-color: #00a69a;
+  border-radius: 22.5px;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+  color: #eeeeee;
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  width: 45px;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.wrapper-aside nav .pager a:hover,
+.wrapper-aside nav .pager a:focus:hover {
+  background-color: #262b37;
+  text-shadow: none;
+}
+.wrapper-aside footer {
+  bottom: 8px;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+  text-shadow: 0 2px rgba(255, 255, 255, 0.8);
+}
+/*!
+ **********************************************************
+ *
+ *	3.	LAYOUT HEIGHT 100%
+ *
+ **********************************************************
+ */
+.wrapper {
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.wrapper > .box {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.wrapper > .box > .row {
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.wrapper > .box > .row > .column {
+  height: 100%;
+  overflow: auto;
+  *zoom: 1;
+}
